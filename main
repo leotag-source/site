@@ -1,0 +1,12 @@
+var
+  list [1,2,3]
+  list2 ['test','test2']
+  auth user.auth+3
+doctype html
+html
+  head
+    title Example
+  body
+    ul
+      each dir.list as key, value
+        li(id=key) @value
